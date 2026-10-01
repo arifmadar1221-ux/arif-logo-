@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARIF - New Tab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-bar">
+    <div class="top-right">
+      <a href="https://mail.google.com/" target="_blank">Gmail</a>
+      <a href="https://images.google.com/" target="_blank">Images</a>
+      <a class="apps" href="https://www.google.com/" target="_blank" aria-label="Google">⋮⋮⋮</a>
+      <div class="profile-dot">A</div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="logo-wrap">
+      <img src="ARIF.png" alt="ARIF" class="arif-logo">
+    </div>
+
+    <form class="search-box" id="searchForm">
+      <button class="search-icon" type="submit" aria-label="Search">⌕</button>
+      <input id="searchInput" type="text" placeholder="Search Google or type a URL" autocomplete="off" autofocus>
+      <button class="voice" type="button" id="voiceButton" aria-label="Voice search">🎙</button>
+      <button class="lens" type="button" id="lensButton" aria-label="Google Lens">▣</button>
+      <button class="ai-mode" type="button" id="aiButton">✦ AI Mode</button>
+    </form>
+
+    <section class="shortcuts" aria-label="Shortcuts">
+      <a class="shortcut" href="http://localhost:8050/" target="_blank">
+        <div class="shortcut-icon blue">L</div>
+        <span>Student OS</span>
+      </a>
+      <a class="shortcut" href="https://www.microsoft.com/edge" target="_blank">
+        <div class="shortcut-icon edge">e</div>
+        <span>Microsoft Edge</span>
+      </a>
+      <a class="shortcut" href="https://chromewebstore.google.com/" target="_blank">
+        <div class="shortcut-icon store">▰</div>
+        <span>Web Store</span>
+      </a>
+      <button class="shortcut add-shortcut" id="addShortcut">
+        <div class="shortcut-icon plus">+</div>
+        <span>Add shortcut</span>
+      </button>
+    </section>
+
+    <section class="continue-card">
+      <div class="card-title">Your ARIF New Tab</div>
+      <div class="card-item">
+        <div class="item-icon">A</div>
+        <div>
+          <strong>Welcome to your custom New Tab</strong>
+          <p>Search Google, open shortcuts, or add your own.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="customize" id="customizeButton">✎ &nbsp; Customize Chrome</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

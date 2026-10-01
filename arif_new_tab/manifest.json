@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "ARIF New Tab",
+  "version": "1.0.0",
+  "description": "A custom Chrome New Tab page featuring the ARIF logo.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": []
+}
